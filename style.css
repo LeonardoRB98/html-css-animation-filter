@@ -185,3 +185,31 @@
     right: 15%;
   }
 }
+
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: full-spin1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: full-spin2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes full-spin1 {
+  0% {
+    left: 10%;
+  }
+  25%{
+  left: 50%;
+  }
+  50% {
+  left: 100%;
+  }
+  75%{
+  left: 100%;
+  }
+  100% {
+  left: 10%;
+  }
+}
